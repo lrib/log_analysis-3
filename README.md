@@ -63,7 +63,7 @@ Resultado
 * Os resultados irao aparecer automaticamente na tela e no arquvio chamado report_file.log e estao dividos em tres grupos
   + Os tres mais populares artigos de todos os tempos, apresentado por visualizaoes (maior para o menor)
   + Os Autores com artigos mais visualizados, apresentados por visualizaoes (maior para o menor)
-  + Os dias em que os erros nas requisicoes das paginas foi maior do que 1% (maior para o menor)
+  + Os dias em que os erros nas requisicoes das paginas foi maior do que 1% 
 
 
 Fontes consultadas
