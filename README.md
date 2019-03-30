@@ -34,7 +34,7 @@ Uso
 * Instalar o Virtual Box e depois o Vagrant, se já não estiver instalada.
 * Baixar os [Arquivos de configuração da VM](https://github.com/udacity/fullstack-nanodegree-vm).
 * Decompactar o arquivo fullstack-nanodegree-vm-master.zip.
-* Baixar o [Arquivo do log do bando de dados para PostgreSQL](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) e copiar para a pasta /vagrant.
+* Baixar e descopactar o [Arquivo do log do bando de dados para PostgreSQL](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) para a pasta /vagrant.
 * Dentro do Shell ir para a pasta FSND-Virtual-Machine/vagrant/.
 ```bash
 $ cd FSND-Virtual-Machine/vagrant/
@@ -51,5 +51,10 @@ $ vagrant ssh
 ```bash
 $ cd /vagrant
 $ psql -d news -f newsdata.sql
+```
+* Execute o arquivo analise_log.py pela linha de comando.
+* Os resultados irao aparecer automaticamente na tela.
+```bash
+$ 
 ```
 
