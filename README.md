@@ -53,8 +53,8 @@ $ cd /vagrant
 $ psql -d news -f newsdata.sql
 ```
 * Execute o arquivo analise_log.py pela linha de comando.
-* Os resultados irao aparecer automaticamente na tela.
+* Os resultados irao aparecer automaticamente na tela e serao armazenados no ficheiro report_file.log, no mesmo diretorio onde o analise_log.py for executado.
 ```bash
-$ 
+$ python analise_log.py
 ```
 
