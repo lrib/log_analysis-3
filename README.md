@@ -25,5 +25,8 @@ $ python -V
 ```bash
 => SELECT version();
 ```
++ [Instalar a lib Python psycopg2](https://pypi.org/project/psycopg2/).
++ [Instalar a lib Python pycodestyle](https://pypi.org/project/pycodestyle/).
++ [Instalar a lib Python PrettyTable](https://pypi.org/project/PrettyTable/).
 Uso
 -----
