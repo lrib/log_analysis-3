@@ -74,4 +74,4 @@ http://zetcode.com/python/prettytable/
 
 https://www.w3schools.com/python/python_file_write.asp
 
-http://initd.org/psycopg/docs/;
+http://initd.org/psycopg/docs/
