@@ -1,0 +1,23 @@
+1.Quais sao os tres artigos mais populares de todos os tempos:
++----------------------------------+-------------------------+
+|              Artigo              | Numero de visualizacoes |
++----------------------------------+-------------------------+
+| Candidate is jerk, alleges rival |          338647         |
+| Bears love berries, alleges bear |          253801         |
+| Bad things gone, say good people |          170098         |
++----------------------------------+-------------------------+
+2.Quais sao os atores mais populares de todos os tempos:
++------------------------+-------------------------+
+|         Autor          | Numero de visualizacoes |
++------------------------+-------------------------+
+|    Ursula La Multa     |          507594         |
+| Rudolf von Treppenwitz |          423457         |
+| Anonymous Contributor  |          170098         |
+|     Markoff Chaney     |          84557          |
++------------------------+-------------------------+
+3.Qual o dia com mais de 1% de erro:
++------------------+----------------+------------------+----------------+
+| Data(AAAA-MM-DD) | Total Erros(%) | Total de Acessos | Total de Erros |
++------------------+----------------+------------------+----------------+
+|    2016-07-17    |      2.26      |      55907       |      1265      |
++------------------+----------------+------------------+----------------+
