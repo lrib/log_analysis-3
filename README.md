@@ -53,8 +53,21 @@ $ cd /vagrant
 $ psql -d news -f newsdata.sql
 ```
 * Execute o arquivo analise_log.py pela linha de comando.
-* Os resultados irao aparecer automaticamente na tela e serao armazenados no ficheiro report_file.log, no mesmo diretorio onde o analise_log.py for executado.
+* Os resultados irao aparecer automaticamente na tela e no arquvio chamado report_file.log 
 ```bash
-$ python analise_log.py
+$ $ python analise_log.py
 ```
+
+Resultado
+---------
+
+* Os resultados irao aparecer automaticamente na tela e no arquvio chamado report_file.log e estao dividos em tres grupos
+  + Os tres mais populares artigos de todos os tempos, apresentado por visualizaoes (maior para o menor)
+  + Os Autores com artigos mais visualizados, apresentados por visualizaoes (maior para o menor)
+  + Os dias em que os erros nas requisicoes das paginas foi maior do que 1% (maior para o menor)
+
+
+Fontes consultadas
+---------
+http://pep8online.com/checkresult
 
