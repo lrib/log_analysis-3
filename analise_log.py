@@ -25,7 +25,7 @@ def impr_top_artigos():
         # monta a requisicao SQL
         primeiro_query = " select articles.title, count(log.path) from log \
                       join articles on log.path like '%' || articles.slug \
-                      group by articles.title order by count desc limit 3; "
+                      group by articles.title order by count desc limit 3;"
         # executa a requisicao SQL
         cursor.execute(primeiro_query)
         # copia o resultado para a variavel
@@ -68,7 +68,7 @@ def impr_top_autores():
         primeiro_query = "select authors.name, count(log.path) from log\
                           join articles on log.path like '%' || articles.slug\
                           join authors on authors.id = articles.author\
-                          group by authors.name order by count desc "
+                          group by authors.name order by count desc;"
         # executa a requisicao SQL
         cursor.execute(primeiro_query)
         # copia o resultado para a variavel
