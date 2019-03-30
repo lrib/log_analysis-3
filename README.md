@@ -11,7 +11,7 @@ Este projeto tem como objetivo construir uma ferramenta interna de relatórios c
 requisitos
 ------------
 
-+ [Python 2.7.12](https://www.python.org/downloads/) instalado.
++ [Python 2.7.12](https://www.python.org/downloads/release/python-2712/) instalado.
 + A versao pode ser verificada executando o comando abaixo:
 ```bash
 $ python -V
