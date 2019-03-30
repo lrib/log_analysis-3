@@ -19,8 +19,11 @@ $ python -V
 + [Virtual Box](https://www.virtualbox.org/wiki/Downloads) instalado.
 + [Vagrant](https://www.vagrantup.com/downloads.html) instalado.
 + [Arquivos de cofiguracao da VM](https://github.com/udacity/fullstack-nanodegree-vm).
-+ [Arquivo do bando de dados do PostgreSQL] (https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) instalado.
++ [Arquivo do bando de dados do PostgreSQL](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) instalado.
 + [PostgreSQL 9.5.14] (https://www.postgresql.org/download/linux/) instalado.
-
++ A versao pode ser verificada executando o comando abaixo dentro do PostgreSQL:
+```bash
+=> SELECT version();
+```
 Uso
 -----
