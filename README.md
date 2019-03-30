@@ -8,7 +8,7 @@ Projeto 3: Analise de Logs com Python e SQL
 
 Este projeto tem como objetivo construir uma ferramenta interna de relatórios com Python e SQL que utiliza informações consultadas no banco de dados de um site de jornal para determinar que tipo de artigos e o autor que os leitores preferem e o dia em que o site experimentou um alto nível de erros de solicitação do usuário.
 
-requisitos
+Pre-requisitos
 ------------
 
 + [Python 2.7.12](https://www.python.org/downloads/release/python-2712/) instalado.
@@ -28,5 +28,10 @@ $ python -V
 + [Instalar a lib Python psycopg2](https://pypi.org/project/psycopg2/).
 + [Instalar a lib Python pycodestyle](https://pypi.org/project/pycodestyle/).
 + [Instalar a lib Python PrettyTable](https://pypi.org/project/PrettyTable/).
+
 Uso
 -----
+* Instalar o Virtual Box e depois o Vagrant, se já não estiver instalada.
+* Baixar os [Arquivos de configuração da VM](https://github.com/udacity/fullstack-nanodegree-vm).
+* Decompactar o arquivo fullstack-nanodegree-vm-master.zip.
+*
