@@ -53,7 +53,6 @@ $ cd /vagrant
 $ psql -d news -f newsdata.sql
 ```
 * Execute o arquivo analise_log.py pela linha de comando.
-* Os resultados irao aparecer automaticamente na tela e no arquvio chamado report_file.log 
 ```bash
 $ $ python analise_log.py
 ```
@@ -70,4 +69,6 @@ Resultado
 Fontes consultadas
 ---------
 http://pep8online.com/checkresult
-
+http://zetcode.com/python/prettytable/
+https://www.w3schools.com/python/python_file_write.asp
+http://initd.org/psycopg/docs/
